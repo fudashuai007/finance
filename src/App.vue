@@ -1,21 +1,22 @@
 <template>
-	<div>
-		<HelloWorld />
-		<Login />
-	</div>
-    
+  <div>
+    <!-- <HelloWorld /> -->
+		<BackGround />
+    <Login/>
+  </div>
 </template>
 
 <script>
 import 'normalize.css'
 import Login from './components/login'
-import HelloWorld from './components/HelloWorld.vue'
-
+import BackGround from './components/BackGround'
+// import HelloWorld from './components/HelloWorld.vue'
 export default {
   name: 'app',
   components: {
-		HelloWorld,
-		Login
+		// HelloWorld,
+		Login,
+		BackGround
   }
 }
 </script>

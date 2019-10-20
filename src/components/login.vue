@@ -56,10 +56,7 @@ export default {
                 // 	username:this.username
                 // }
                 localStorage.setItem("token", data.body.data.token);
-                localStorage.setItem(
-                  "username",
-                  data.body.data.user[0].username
-                );
+                localStorage.setItem( "username",data.body.data.user[0].username);
                 localStorage.setItem("_id", data.body.data.user[0]._id);
               }
               // this.$router.push("/main");
