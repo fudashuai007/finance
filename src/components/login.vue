@@ -10,6 +10,7 @@
       </el-form-item>
       <el-form-item>
         <el-button type="primary" v-on:click="onSubmit('loginForm')">登录</el-button>
+				<el-link  margin-left="30px" type="primary" :underline="false" v-on:click=userRegister()>前往注册 >>></el-link>
       </el-form-item>
     </el-form>
   </div>
